@@ -160,7 +160,7 @@ const changeMyMindFunction = function () {
   return console.log(changeMyMind);
 };
 changeMyMindFunction();
-changeMyMindFunction();
+
 
 // if (changeMyMind) {
 //   changeMyMind = false;
@@ -180,6 +180,11 @@ changeMyMindFunction();
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
+
+changeMyMindFunction();
+changeMyMindFunction();
+changeMyMindFunction();
+
 
 ////////// ADVANCED PROBLEMS //////////
 
