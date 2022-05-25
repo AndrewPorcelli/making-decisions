@@ -161,7 +161,6 @@ const changeMyMindFunction = function () {
 };
 changeMyMindFunction();
 
-
 // if (changeMyMind) {
 //   changeMyMind = false;
 // } else if (!changeMyMind) {
@@ -185,7 +184,6 @@ changeMyMindFunction();
 changeMyMindFunction();
 changeMyMindFunction();
 
-
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
@@ -194,3 +192,12 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+
+while (z > 0) {
+  let y = z;
+  while (y > 0) {
+    console.log(y);
+    y--;
+  }
+  z--;
+}
