@@ -51,9 +51,9 @@ if (amysAge > brittanisAge) {
 //CODE HERE
 
 if (brittanisBirthYear === amysBirthYear) {
-  console.log("Amy and Brittani were born in the same year");
+  console.log(`${amyName} and ${brittaniName} were born in the same year`);
 } else {
-  console.log("Amy and Brittani were not born in the same year");
+  console.log(`${amyName} and ${brittaniName} were not born in the same year`);
 }
 
 ////////// PROBLEM 4 //////////
@@ -67,6 +67,20 @@ let rain = true;
 */
 
 //CODE HERE
+
+if (temperature >= 80 && rain) {
+  console.log("You should wear a t-shirt and take an umbrella");
+} else if (temperature >= 60 && temperature <= 80 && rain) {
+  console.log("You should wear a rain jacket");
+} else if (temperature < 60 && rain) {
+  console.log("You should wear a jacket and carry an umbrella");
+} else if (temperature >= 80 && !rain) {
+  console.log("You should wear a t-shirt and shorts");
+} else if (temperature >= 60 && temperature <= 80 && !rain) {
+  console.log("You should wear a light jacket. Not too cold, not too hot ☺️");
+} else if (temperature < 60 && !rain) {
+  console.log("You should move to a warmer place 😘");
+}
 
 ////////// PROBLEM 5 //////////
 
