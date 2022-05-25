@@ -21,6 +21,8 @@ let amysAge = 29;
 let brittanisAge = 34;
 let amysBirthYear = 1991;
 let brittanisBirthYear = 1986;
+const amyName = "Amy";
+const brittaniName = "Brittani";
 
 ////////// PROBLEM 2 //////////
 
@@ -31,9 +33,9 @@ let brittanisBirthYear = 1986;
 //CODE HERE
 
 if (amysAge > brittanisAge) {
-  console.log(`${amysAge} is older`);
+  console.log(`${amyName} is older`);
 } else if (amysAge < brittanisAge) {
-  console.log(`${brittanisAge} is older`);
+  console.log(`${brittaniName} is older`);
 } else {
   console.log(
     `Amy's age ${amysAge} is the same as Brittani's age ${brittanisAge}`
@@ -47,6 +49,12 @@ if (amysAge > brittanisAge) {
 */
 
 //CODE HERE
+
+if (brittanisBirthYear === amysBirthYear) {
+  console.log("Amy and Brittani were born in the same year");
+} else {
+  console.log("Amy and Brittani were not born in the same year");
+}
 
 ////////// PROBLEM 4 //////////
 
