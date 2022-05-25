@@ -90,7 +90,9 @@ if (temperature >= 80 && rain) {
 
 //CODE HERE
 
-for (let i = 1; i <= 10; i++) console.log(`Hello, ${i} time`);
+for (let i = 1; i <= 10; i++) {
+  console.log(`Hello, ${i} time`);
+}
 // console.log("Hello");
 
 ////////// PROBLEM 6 //////////
@@ -101,7 +103,9 @@ for (let i = 1; i <= 10; i++) console.log(`Hello, ${i} time`);
 
 //CODE HERE
 
-for (let i = 1; i <= 10; i++) console.log(`${i}`);
+for (let i = 1; i <= 10; i++) {
+  console.log(`${i}`);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -110,6 +114,10 @@ for (let i = 1; i <= 10; i++) console.log(`${i}`);
 */
 
 //CODE HERE
+
+for (let i = 10; i >= 0; i--) {
+  console.log(`${i}`);
+}
 
 ////////// PROBLEM 8 //////////
 
