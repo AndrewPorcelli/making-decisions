@@ -180,6 +180,8 @@ changeMyMindFunction();
 
 //CODE HERE
 
+changeMyMind = !changeMyMind;
+
 changeMyMindFunction();
 changeMyMindFunction();
 changeMyMindFunction();
